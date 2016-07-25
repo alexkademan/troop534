@@ -1,2 +1,6 @@
-# troop534
-WP theme for nephew's cub scout troop. Primarily a calendar of upcoming events for all the parents to reference.
+# wp-starter-theme
+My own personal starter theme for a WordPress website
+
+This was built from _s and I added Bourbon, Neat and Bitters.
+
+I have also included a palm sized menu and a couple other small features using backbone.js

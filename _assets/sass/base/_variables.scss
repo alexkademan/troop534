@@ -14,7 +14,7 @@ $medium-breakpoint: 'min-width: ' + $small_size;
 $large-breakpoint: 'min-width: ' + $large_size;
 
 // Typography
-@include font-face( capture-it, '../fonts/Capture_it-webfont' );
+@include font-face( capture-it, '../fonts/capture_it-webfont' );
 $base-font-family: $font-stack-system;
 
 // Font Sizes
@@ -73,6 +73,11 @@ $mh_med_padding-bottom: pem(4);
 // NAV vars:
 $nav-off-canvas-width: 87%;
 $nav-height-mobile: pem( 60 );
-$nav-height-medium: pem( 75 );
+$nav-height-medium: pem( 120 );
 
-$main_logo_width: pem(115);
+$nav-height-main-medium: pem(70);
+$nav-height-sub-medium: pem(50);
+
+$main-logo-width: pem(120);
+$main-logo-height: pem(98);
+$main_logo_width-mobile: pem(80);
