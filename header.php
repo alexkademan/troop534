@@ -46,15 +46,5 @@ require get_template_directory() . '/custom-objects/custom-objects.php';
 			<?php get_template_part( 'template-parts/content', 'main-nav' ); ?>
 	</header>
 	<div id="page" class="site">
-<?php
-if(
-	isset($post->post_title)
-	&& $post->post_name == "home"
-){
-	get_template_part( 'template-parts/content', 'sign-up-now-banner' );
-} else {
-	echo '<hr class="redstripe">';
-}
-?>
 	<span class="main-bg">
 		<div class="content">

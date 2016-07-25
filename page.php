@@ -12,9 +12,10 @@
  * @package _s
  */
 
+
 if(
 	isset($post->post_title)
-	&& $post->post_title == "W.F.C.A."
+	&& $post->post_title == "Home"
 ){
 	$has_sidebar = true;
 
@@ -48,10 +49,6 @@ get_header();
 
 <?php
 if($has_sidebar) {
-
-	for($i=2; $i<100; ++$i) {
-		echo 'stuff - ' . $i * 50 . ' <br /><br />';
-	}
 	get_sidebar();
 }
 get_footer();
